@@ -15,7 +15,7 @@ class PostsServiceTest {
     @Test
     void executaPostSobreGatosParalell_ShouldExecuteSuccessfully() {
         // Act
-        postsService.executaPostSobreGatosParalell();
+        postsService.executaPostSobreGatosParalelo();
 
         // Se chegou até aqui sem lançar exceção, o teste passa
         // Podemos adicionar mais verificações se necessário
